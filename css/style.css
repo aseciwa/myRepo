@@ -1,0 +1,16 @@
+.a_link {
+    color: white;
+}
+.l_padding {
+    padding-left: 4%;
+}
+.r_padding {
+    padding-right: 4%;
+}
+.nav-color {
+    background-color: #444444;
+}
+.nav-hover:hover {
+    color: red;
+    font-size: 16px;
+}
