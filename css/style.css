@@ -48,9 +48,9 @@
 
 /* Font size for all p-tags */
 p {
-    font-family: Futura;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 140%;
 }
 h1 {
-    font-family: Futura;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
