@@ -2,10 +2,10 @@
     color: white;
 }
 .l_padding {
-    padding-left: 4%;
+    padding-left: 5%;
 }
 .r_padding {
-    padding-right: 4%;
+    padding-right: 5%;
 }
 
 /* Navigation Bar */
@@ -31,4 +31,26 @@
 }
 .f_font {
     color: white;
+}
+
+/* Main content padding*/
+/* the row makes all column height equal */
+.bot_padding {
+    padding-bottom: 15%;
+}
+
+.row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+}
+
+/* Font size for all p-tags */
+p {
+    font-family: Futura;
+    font-size: 140%;
+}
+h1 {
+    font-family: Futura;
 }
