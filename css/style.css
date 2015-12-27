@@ -39,12 +39,6 @@
     padding-bottom: 15%;
 }
 
-.row {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display:         flex;
-}
 
 /* Font size for all p-tags */
 p {
