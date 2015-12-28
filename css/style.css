@@ -1,3 +1,16 @@
+html, body {
+    height: 100%;
+}
+
+#wrap {
+    min-height: 100%;
+}
+
+#main {
+    overflow:auto;
+    padding-bottom:150px; /* this needs to be bigger than footer height*/
+}
+
 .a_link {
     color: white;
 }
@@ -41,7 +54,12 @@
     padding: 10px 0px;
     margin-top: 0px;
     font-size: 0.9em;
+
+    position: relative;
+    clear: both;
 }
+
+
 
 /* Main content padding*/
 /* the row makes all column height equal */
