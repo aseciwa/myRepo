@@ -18,7 +18,8 @@
 }
 .nav_img {
     width:40%;
-    padding-left: -20px;
+    padding-left: -30px;
+    padding-top: 10px;
 }
 .left_pad {
     padding-left: -50px;
@@ -31,6 +32,15 @@
 }
 .f_font {
     color: white;
+}
+#footer {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    border-top: 3px solid #CCC;
+    padding: 10px 0px;
+    margin-top: 0px;
+    font-size: 0.9em;
 }
 
 /* Main content padding*/

@@ -45,36 +45,46 @@
 </div>
 
 <!-- Image Wrapper -->
-
 <hr>
 
 <!-- Main Content -->
 <div class="container">
     <div class="row">
         <div class="col-lg-8">
-            <h1>Shipping Form</h1>
-            <p>
-                If you'd like to send us an order, please fill out the shipping form below and enclose the form with
-                your shipment. When your order includes the completed shipping form, we are able to work more
-                efficiently and avoid costly processing errors.
+
+            <div>
+                <h1>Calculate Prices</h1>
+                <h2>Uploade image then press Calcuate button</h2>
                 <br><br>
-                You have two choices when filling the form. You may either:
-                <br><br>
-            </p>
-            <ol>
-                <li>Print the form, fill it in by hand, and enclose it with your order.</li>
-                <li>
-                    Fill the form using your computer by clicking on blank spaces to enter information, print the
-                    filled form, and enclose it with your order.
-                </li>
-            </ol>
-            <br>
-            <a class="link" href="#">
-                <span class="link">Click here to access the shipping form.</span>
-            </a>
+            </div>
+
+            <div class="fileupload fileupload-new" data-provides="fileupload">
+                <span class="btn btn-primary btn-file"><span class="fileupload-new">Select file</span>
+                    <span class="fileupload-exists">Change</span>
+                    <input id="photo-img" type="file" />
+
+
+                </span>
+                <span class="fileupload-preview"></span>
+                <a href="#" class="close fileupload-exists" data-dismiss="fileupload" style="float: none">×</a>
+            </div>
+
+            <div>
+                <h3>Calculate</h3>
+                <button id="calc" onclick="getImage()" class="btn btn-success">Success</button>
+
+            </div>
         </div>
     </div>
 </div>
+<script>
+    var getImage = function () {
+        alert('this');
+        //pImage = document.getElementById("photo-img")
+    }
+</script>
+
+
 <hr>
 <!-- Footer -->
 <div id="footer">
