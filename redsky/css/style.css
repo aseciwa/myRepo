@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+}
+
+#wrap {
+    min-height: 100%;
+}
+
+#main {
+    overflow:auto;
+    padding-bottom:150px; /* this needs to be bigger than footer height*/
+}
+
+.a_link {
+    color: white;
+}
+.l_padding {
+    padding-left: 5%;
+}
+.r_padding {
+    padding-right: 5%;
+}
+
+/* Navigation Bar */
+.nav-color {
+    background-color: #444444;
+}
+.nav-hover:hover {
+    color: red;
+    font-size: 15px;
+}
+.nav_img {
+    width:40%;
+    padding-left: -30px;
+    padding-top: 10px;
+}
+.left_pad {
+    padding-left: -50px;
+}
+
+/* Footer styling */
+.f_img {
+    padding-top: 10px;
+    width: 50%;
+}
+.f_font {
+    color: white;
+}
+#footer {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    border-top: 3px solid #CCC;
+    padding: 10px 0px;
+    margin-top: 0px;
+    font-size: 0.9em;
+
+    position: relative;
+    clear: both;
+}
+
+
+
+/* Main content padding*/
+/* the row makes all column height equal */
+.bot_padding {
+    padding-bottom: 15%;
+}
+
+
+/* Font size for all p-tags */
+p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 140%;
+}
+h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

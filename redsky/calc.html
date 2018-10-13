@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Price Calculator</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+<div id="wrap">
+    <!-- Navigation Bar -->
+    <div class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Navigation bar Header -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-bar-apr-collapse">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!--<div class="navbar-header navbar-right">-->
+            <div class="collapse navbar-collapse navbar-left" id="nav-bar-apr-collapse">
+                <ul class="nav navbar-nav">
+                    <li><img src="images/redskyplatingMOD.png" class="nav_img" alt="nav-redsky"></li>
+                    <li><a href="redskyplating.html" class="a_link nav-hover left_pad">Home Page</a></li>
+                    <li><a href="about.html" class="a_link nav-hover">About Red Sky</a></li>
+                    <li><a href="finish-n-cap.html" class="a_link nav-hover">Finish and Capabilities</a></li>
+                    <li><a href="shipping.html" class="a_link nav-hover">Shipping Form</a></li>
+                    <li><a href="calc.html" class="a_link nav-hover">Price Calculator</a></li>
+                    <li><a href="faq.html" class="a_link nav-hover">FAQ</a></li>
+                    <li><a href="contact.html" class="a_link nav-hover">Contact Us</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Image Wrapper -->
+    <hr>
+
+    <!-- Main Content -->
+    <div id="main" class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8">
+
+                <div>
+                    <h1>Calculate Prices</h1>
+                    <h2>Uploade image then press Calcuate button</h2>
+                    <br><br>
+                </div>
+
+                <div class="fileupload fileupload-new" data-provides="fileupload">
+                <span class="btn btn-primary btn-file"><span class="fileupload-new">Select file</span>
+                    <span class="fileupload-exists">Change</span>
+                    <input id="photo-img" type="file"/>
+
+
+                </span>
+                    <span class="fileupload-preview"></span>
+                    <a href="#" class="close fileupload-exists" data-dismiss="fileupload" style="float: none">×</a>
+                </div>
+
+                <div>
+                    <h3>Calculate</h3>
+                    <button id="calc" onclick="getImage()" class="btn btn-success">Success</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var getImage = function () {
+            pImage = document.getElementById("photo-img");
+
+            for(i=0; i < pImage.lenth(); i++){
+
+            }
+        }
+    </script>
+
+
+    <hr>
+    <!-- Footer -->
+    <div id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h4>Physical Address</h4>
+                    Redsky Plating
+                    <br>
+                    Phone: (505) 243-6600
+                    <br>
+                    Fax: (505) 246-8880
+                    <br>
+                    Email:
+                    <a href="mailto:info@redskyplating.com">info@redskyplating.com</a>
+                </div>
+                <div class="col-sm-4">
+                    <h4>Mailing Address</h4>
+                    Redsky Plating
+                    <br>
+                    630 Oak SE
+                    <br>
+                    Albuquerque, NM 87106-5224
+                </div>
+                <div class="col-sm-4">
+                    <p>
+                        <a href="#"></a>
+                        <img src="images/redskyplatingMOD.png" class="f_img" alt="redsky">
+                    </p>
+                    <small>
+                        Albuquerque, NM 87106-5224, (505) 243-6600
+                        <br>
+                        Redsky Plating
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" src="js/anti_cache.js?ac=11.5.13_"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
